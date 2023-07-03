@@ -3,8 +3,7 @@ name: CI
 on:
   push:
     branches:
-    - master
-  pull_request:
+    - test-ci
 
 jobs:
   xcode-build-12:
